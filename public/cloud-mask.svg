@@ -1,0 +1,59 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- WHITE OUTLINE -->
+  <g fill="white">
+    <!-- top -->
+    <circle cx="40" cy="40" r="22"></circle>
+    <circle cx="80" cy="40" r="22"></circle>
+    <circle cx="120" cy="40" r="22"></circle>
+    <circle cx="160" cy="40" r="22"></circle>
+    <circle cx="200" cy="40" r="22"></circle>
+
+    <!-- right -->
+    <circle cx="200" cy="80" r="22"></circle>
+    <circle cx="200" cy="120" r="22"></circle>
+    <circle cx="200" cy="160" r="22"></circle>
+
+    <!-- bottom -->
+    <circle cx="40" cy="200" r="22"></circle>
+    <circle cx="80" cy="200" r="22"></circle>
+    <circle cx="120" cy="200" r="22"></circle>
+    <circle cx="160" cy="200" r="22"></circle>
+    <circle cx="200" cy="200" r="22"></circle>
+
+    <!-- left -->
+    <circle cx="40" cy="80" r="22"></circle>
+    <circle cx="40" cy="120" r="22"></circle>
+    <circle cx="40" cy="160" r="22"></circle>
+
+    <rect x="40" y="40" width="160" height="160"></rect>
+  </g>
+
+  <!-- BLUE TILE -->
+  <g fill="#8EC9E8">
+    <!-- top -->
+    <circle cx="40" cy="40" r="18"></circle>
+    <circle cx="80" cy="40" r="18"></circle>
+    <circle cx="120" cy="40" r="18"></circle>
+    <circle cx="160" cy="40" r="18"></circle>
+    <circle cx="200" cy="40" r="18"></circle>
+
+    <!-- right -->
+    <circle cx="200" cy="80" r="18"></circle>
+    <circle cx="200" cy="120" r="18"></circle>
+    <circle cx="200" cy="160" r="18"></circle>
+
+    <!-- bottom -->
+    <circle cx="40" cy="200" r="18"></circle>
+    <circle cx="80" cy="200" r="18"></circle>
+    <circle cx="120" cy="200" r="18"></circle>
+    <circle cx="160" cy="200" r="18"></circle>
+    <circle cx="200" cy="200" r="18"></circle>
+
+    <!-- left -->
+    <circle cx="40" cy="80" r="18"></circle>
+    <circle cx="40" cy="120" r="18"></circle>
+    <circle cx="40" cy="160" r="18"></circle>
+
+    <rect x="40" y="40" width="160" height="160"></rect>
+  </g>
+</svg>
