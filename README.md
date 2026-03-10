@@ -1,56 +1,96 @@
 # 🧩 8 Puzzle Game
 
-A simple and interactive **8-Puzzle sliding tile game** built with **React + TailwindCSS** and deployed as a **mobile Android app using Capacitor**.
+A simple and interactive **8-Puzzle sliding tile game** built using **React + TailwindCSS** and packaged as a **mobile Android app using Capacitor**.
 
-The objective of the game is to arrange the tiles in numerical order by sliding them into the empty space.
+The goal of the game is to arrange the numbered tiles in order by sliding them into the empty space.
 
 ---
 
-## 🎮 Features
+# 📱 Install the App
+
+You can install the Android APK directly:
+
+**Download APK**
+
+https://drive.google.com/file/d/1XUMxBg-gILkAbANKg0yzm97D19waSmuV/view?usp=sharing
+
+1. Download the APK
+2. Allow **Install from unknown sources** on your phone
+3. Install and start playing
+
+---
+
+# 🎥 Demo Video
+
+You can add a demo video of the gameplay here.
+
+Example:
+
+```
+🎥 Demo Video
+
+https://github.com/user-attachments/assets/92e54712-0747-43b8-93b2-ad011c9b1c31
+
+```
+
+Or upload a GIF/video directly to GitHub and paste it here.
+
+---
+
+# 🎮 Features
 
 * 🧩 Classic **3×3 sliding puzzle**
 * 🎚 **Difficulty levels** (Easy / Medium / Hard)
-* ⏱ **Timer starts on first move**
+* ⏱ **Timer starts after first move**
 * 🔢 **Move counter**
 * 💡 **Hint system**
-* 🏆 **Best game tracking (stored locally)**
+* 🏆 **Best game tracking**
 * 🎉 **Confetti animation when puzzle is solved**
-* 🐰 **Victory popup with image**
-* 📱 **Android mobile app support**
+* 🐰 **Victory popup**
+* 📱 **Android mobile support**
 
 ---
 
-## 📱 App Screens
+# 🧠 A* Search Algorithm
 
-Main gameplay includes:
+The game uses the **A* (A-Star) Search Algorithm** to generate hints for solving the puzzle.
 
-* Puzzle board
-* Moves counter
-* Timer
-* Hints used
-* Hint and Reset buttons
-* Best game stats
-* Guidelines popup
+A* is a widely used pathfinding and graph traversal algorithm in **Artificial Intelligence**.
+
+It works by combining:
+
+* **g(n)** → the cost from the start state to the current state
+* **h(n)** → a heuristic estimate of the cost to reach the goal
+
+The evaluation function is:
+
+```
+f(n) = g(n) + h(n)
+```
+
+For the 8-Puzzle, the heuristic used is typically the **Manhattan Distance**, which calculates how far each tile is from its goal position.
+
+This allows the algorithm to efficiently search through possible puzzle states and suggest the **next optimal move**.
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 * **React**
 * **Tailwind CSS**
-* **Capacitor (Android wrapper)**
+* **Capacitor**
 * **JavaScript**
-* **HTML / CSS**
+* **A* Search Algorithm**
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 8-puzzle-app
 │
 ├── android/              # Android native project
-├── public/               # Images and static assets
+├── public/
 │   ├── bg1.jpg
 │   ├── win.png
 │   └── start-cloud.png
@@ -75,7 +115,7 @@ Main gameplay includes:
 
 ---
 
-## ▶️ Running the Project (Web)
+# ▶️ Running the Project (Web)
 
 Install dependencies:
 
@@ -89,7 +129,7 @@ Run the development server:
 npm run dev
 ```
 
-Open in browser:
+Open:
 
 ```
 http://localhost:5173
@@ -97,7 +137,7 @@ http://localhost:5173
 
 ---
 
-## 📱 Running the Android App
+# 📱 Running the Android App
 
 Build the web app:
 
@@ -105,7 +145,7 @@ Build the web app:
 npm run build
 ```
 
-Copy the build to Android:
+Copy to Android project:
 
 ```
 npx cap copy android
@@ -117,11 +157,11 @@ Open Android Studio:
 npx cap open android
 ```
 
-Then press **Run ▶** to install on emulator or phone.
+Run the app on emulator or device.
 
 ---
 
-## 📦 Generate APK
+# 📦 Generate APK
 
 In Android Studio:
 
@@ -137,10 +177,9 @@ android/app/build/outputs/apk/debug/app-debug.apk
 
 ---
 
-## 🎯 How to Play
+# 🎯 How to Play
 
-1. Tap a tile next to the empty space to move it.
-2. Arrange the numbers in order:
+Arrange the tiles in order:
 
 ```
 1 2 3
@@ -148,21 +187,13 @@ android/app/build/outputs/apk/debug/app-debug.apk
 7 8 _
 ```
 
-3. Try to solve it in **minimum moves and time**.
+Slide tiles into the empty space until the puzzle is solved.
+
+Try to complete the puzzle in **minimum moves and time**.
 
 ---
 
-## 💡 Future Improvements
-
-* Leaderboard system
-* More puzzle sizes (4×4, 5×5)
-* Sound effects and animations
-* Online score tracking
-* PWA support
-
----
-
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Kanika S**
 
@@ -170,6 +201,6 @@ Computer Science Student
 
 ---
 
-## ⭐ Acknowledgements
+# ⭐ Acknowledgements
 
-Inspired by the classic **8-Puzzle sliding tile problem**, a well-known problem in artificial intelligence and search algorithms.
+Inspired by the classic **8-Puzzle problem**, commonly used to demonstrate **search algorithms in Artificial Intelligence**.
