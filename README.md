@@ -22,18 +22,7 @@ https://drive.google.com/file/d/1XUMxBg-gILkAbANKg0yzm97D19waSmuV/view?usp=shari
 
 # 🎥 Demo Video
 
-You can add a demo video of the gameplay here.
-
-Example:
-
-```
-🎥 Demo Video
-
 https://github.com/user-attachments/assets/144c43c8-d0d0-42a9-9847-5da0f578ecb9
-
-```
-
-Or upload a GIF/video directly to GitHub and paste it here.
 
 ---
 
