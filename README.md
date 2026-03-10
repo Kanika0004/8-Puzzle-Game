@@ -29,7 +29,11 @@ Example:
 ```
 🎥 Demo Video
 
-https://github.com/user-attachments/assets/92e54712-0747-43b8-93b2-ad011c9b1c31
+
+https://github.com/user-attachments/assets/144c43c8-d0d0-42a9-9847-5da0f578ecb9
+
+
+
 
 ```
 
