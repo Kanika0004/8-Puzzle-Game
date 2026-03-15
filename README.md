@@ -12,7 +12,7 @@ You can install the Android APK directly:
 
 **Download APK**
 
-https://drive.google.com/file/d/1XUMxBg-gILkAbANKg0yzm97D19waSmuV/view?usp=sharing
+[(https://github.com/Kanika0004/8-Puzzle-Game/releases/download/v1.0.0/app-release.apk)](https://github.com/Kanika0004/8-Puzzle-Game/releases/download/v1.0.0/app-release.apk)
 
 1. Download the APK
 2. Allow **Install from unknown sources** on your phone
